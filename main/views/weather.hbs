@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head}}
+</head>
+<body>
+    {{>navbar}}
+    <div  class="weather_input">
+       <div class="inputdiv">
+    
+        <input type="text" id="cityname" class="search" placeholder="enter your city name" autocomplete="off">
+        <input type="summit" class="summit" value="search" id="submitBtn">
+    </div>
+    <div   class="inputshow">
+             <span>Today is </span>
+             <p id="todaydate"></p>
+             <h4>Temp of this city</h4>
+             <h5 id="temp" style="display: inline; color:rgb(0, 255, 136); font-weight:500; font-size:35px;">0</h5><sup>o</sup><span>C</span>
+
+    </div>
+    </div>
+   
+   <script src="js/main.js"></script>
+</body>
+</html>
